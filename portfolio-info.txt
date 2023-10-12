@@ -1,0 +1,72 @@
+Veronica Ni
+Designer & Programmer
+
+About
+Skills
+Projects
+Experience
+Contact
+
+Social Links
+
+Hi!
+I have a background in creative advertising and motion graphics, where I've designed for web and television animation, events, photo shoots, installations, digital and print media campaigns, and more.
+
+Then I took a break, moved to a tiny city in Japan where I taught English to awkward teenagers, picked up conversational Japanese to fight my gas company, and started learning programming basics. Fast forward to today, and you have a software engineer with the technical and design chops to bring a spark of creativity to all your engineering needs.
+
+I enjoy cooking 🥘, playing video games 👾, tending to a modest plant collection 🪴, cycling 🚲, and reading science fiction and fantasy books 🐉.
+
+Experience
+
+Assistant English Language Teacher
+JET Program, Japan
+2021 - 2023
+
+Developed online resources and introduced digital technology to supplement traditional course materials.
+Collaborated with colleagues to design and administer lesson activities
+according to curriculum standards.
+Organized community activities and provided advice on cultural
+adjustment and daily living as an area leader volunteer.
+
+Art Director, Designer
+Black Math, Boston
+2016 - 2020
+Worked with producers, animation directors, and creative directors to
+establish design systems for client projects.
+Spearheaded art direction for projects of various scales and styles, and
+worked with design team to maintain style consistency and quality.
+Researched, developed, and introduced design methodologies to
+increase workflow efficiency.
+Clients included: Aetna, America’s Test Kitchen, Arnold, Bai Brands,
+Earth Shoes, Facebook, Harvard Business School, Hill Holliday,
+Instagram, Kellogg’s, MullenLowe, Museum of Fine Arts, National
+Geographic, Reebok, Starbucks, The Ad Club
+
+Lead Artist
+MassDigi Innovation Program, Worcester
+2015 - 2015
+Developed a mobile game from start to launch on iOS and Android in a
+team of programmers, artists, and producers.
+Oversaw art direction and production of art assets for implementation
+into Unity.
+Ensured optimization of assets according to game-standard
+specifications, and collaborated to solve UI, design, and technical
+challenges.
+
+Contact
+Feel free to say hi or ask any questions! I can be reached at:
+
+veronicani@gmail.com
+
+Or use the handy dandy form below:
+
+Your Name
+Email
+What's your message?
+
+Submit
+
+Drafted in Figma, built with Visual Studio Code. Copyright 2023 by Veronica Ni, all rights reserved.
+
+
+
