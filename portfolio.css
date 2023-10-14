@@ -1,13 +1,23 @@
-:root{
+
+/* For CSS Stylesheet best practices - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing */
+
+/* || General Styles */
+:root {
   --clr-background: #FEFAF1;
   --clr-primary: #EA775C;
   --clr-font: #585858;
-  --clr-font-gray: #989898;
-
+  --clr-font-lt: #989898;
+  
   --font-size: 16px;
   --border-radius: 0.2em;
 }
 
+/* padding and border of an element no longer increases width, if one is defined -- https://learnlayout.com/box-sizing */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -15,14 +25,179 @@ body {
   font-size: var(--font-size);
   font-family:'Inter', sans-serif;
   background-color: var(--clr-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* || Typography */
+h1,
+h3 {
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  color: var(--clr-primary);
+}
+
+h1 { 
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* || Utilities -- for styling choices you want to apply to a lot of elements << ref MDN*/
+
+.nobullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.scnd-ft-clr {
+  color: var(--clr-font-lt);
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: var(--clr-primary);
+  
+}
+
+button {
+  background-color: var(--clr-primary);
+  color: var(--clr-background);
+  font-family: 'Montserrat', sans-serif;
+  padding: 1em;
+  border-style: none;
+  border-radius: var(--border-radius); 
 
 }
 
+img {
+  max-width: 500px;
+  border-radius: var(--border-radius); 
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* || Header */
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
-  background-color: #EA775C;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  /* background-color: gray; */
 }
 
-main {
-  background-color: #EA775C;
+h1 {
+  margin-top: -.2em; /* remove leading from h1 in header */
 }
+
+.fa-brands {
+  margin-right: .5em;
+}
+
+/* || Main */
+main {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  /* background-color: gray; */
+}
+  /*all sections that are direct children of main*/
+main > section {
+  margin-bottom: 3em;
+}
+
+/* || About */
+#about-photo {
+  max-width: 250px;
+  margin: 2em;
+  margin-top: 0;
+}
+
+/* || Experience */
+.resume-block {
+  margin-bottom: 1.5em;
+}
+
+.job-description > li {
+  margin-top: .8em;
+}
+
+/* || Contact */
+#email {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  font-style: italic;
+  color: var(--clr-primary);
+}
+
+form,
+.form-input {
+  border: 2px solid;
+  border-color: var(--clr-primary);
+  border-radius: var(--border-radius);
+  font-family: inherit;
+  background: var(--clr-background);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: 2em;
+  
+}
+
+.form-input {
+  width: 100%;
+  padding: .3em;
+  box-shadow: none;
+  margin-bottom: 1em;
+}
+
+label {
+  display: none;
+}
+
+textarea::placeholder,
+input::placeholder {
+  font-style: italic;
+}
+
+form button {
+  width: 100%; 
+}
+
