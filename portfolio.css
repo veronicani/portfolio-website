@@ -89,7 +89,10 @@ a {
   color: var(--clr-primary);
   
 }
+/* button class are for links styled to look like buttons 
+https://www.freecodecamp.org/news/html-button-link-code-examples-how-to-make-html-hyperlinks-using-the-href-attribute-on-tags/#:~:text=And%20buttons%20are%20supposed%20to,button%20inside%20an%20anchor%20tag.*/ 
 
+.button,
 button {
   background-color: var(--clr-primary);
   color: var(--clr-background);
