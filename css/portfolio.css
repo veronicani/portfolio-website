@@ -129,8 +129,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding: 5em 0;
   /* background-color: gray; */
 }
 
@@ -144,8 +143,7 @@ h1 {
 
 /* || Main */
 main {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding: 5em 0;
   /* background-color: gray; */
 }
   /*all sections that are direct children of main*/
@@ -215,3 +213,18 @@ form button {
   width: 100%; 
 }
 
+/* for Mobile */
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 2em 0; 
+  }
+  
+  .nav-hide {
+    display: none;
+  }
+
+  main {
+  padding: 2em 0;
+}
+}
