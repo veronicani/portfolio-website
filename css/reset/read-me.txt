@@ -1,0 +1,10 @@
+reset files pulled from https://learn.shayhowe.com/html-css/building-your-first-web-page/
+
+Different browsers will have default styles for different elements (e.g. Google Chrome vs IE vs Mozilla)
+CSS resets will remove these predefined styles from common HTML elements and provide one unified style for all browsers. (Removing margin, sizing, padding, additional styles)
+
+Eric Meyer's reset.css - hard resets all common elements, includes styles for new HTML5 elements (e.g. <header>, <footer>, <section>)
+
+Normalize.css - does not do a hard reset of all common elements, sets common styles for these elements instead. Requires stronger understanding of CSS and awareness of what you want your styles to be.
+
+** you MUST have the reset file at the top of the CSS style sheet (if inline) or link to it before you link your own stylesheet to the HTML**

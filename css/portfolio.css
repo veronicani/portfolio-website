@@ -112,6 +112,17 @@ img {
   justify-content: center;
 }
 
+/* Breakpoints */
+/* .hide-mobile {
+  display: none;
+}
+
+@include media-breakpoint-up(md) {
+  .hide-mobile {
+    display: block;
+  }
+} */
+
 /* || Header */
 header {
   display: flex;
