@@ -12,7 +12,9 @@
   --border-radius: 0.2em;
 }
 
-/* padding and border of an element no longer increases width, if one is defined -- https://learnlayout.com/box-sizing */
+/* padding and border of an element no longer increases width, if one is defined -- https://learnlayout.com/box-sizing, 
+
+web-kit-, -moz-box prefixes added to enable experimental features in specific browsers. UPDATE: not needed anymore since learnlayout.com was built in era of IE8. Most browsers now support box-sizing https://caniuse.com/?search=box-sizing */
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
