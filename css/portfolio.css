@@ -179,7 +179,7 @@ main > section {
 
 form,
 .form-input {
-  border: 2px solid;
+  border: 1px solid;
   border-color: var(--clr-primary);
   border-radius: var(--border-radius);
   font-family: inherit;
