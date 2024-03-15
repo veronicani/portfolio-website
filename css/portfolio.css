@@ -160,6 +160,15 @@ main > section {
   margin-top: 0;
 }
 
+/* || Skills */
+.devicon {
+  font-size: 2.5em;
+  color: var(--clr-background);
+  background-color: var(--clr-primary);
+  padding: 10px;
+  border-radius: 50%;
+}
+
 /* || Experience */
 .resume-block {
   margin-bottom: 1.5em;
