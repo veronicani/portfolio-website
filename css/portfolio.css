@@ -224,8 +224,8 @@ form button {
   width: 100%; 
 }
 
-/* for Mobile */
-@media screen and (max-width: 768px) {
+/* for Mobile - Surface Pro & smaller */
+@media screen and (max-width: 912px) {
   header {
     height: auto;
     padding: 2em 0; 
@@ -236,6 +236,10 @@ form button {
   }
 
   main {
-  padding: 2em 0;
-}
+    padding: 2em 0;
+  }
+
+  img {
+    width: 90vw;
+  }
 }
